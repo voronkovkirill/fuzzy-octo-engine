@@ -1,0 +1,8 @@
+enum StickerModification {
+    case changeMask(UIImage)
+    case changeBlendMode(ContentBlendMode
+    case changeZPosition(Int)
+    case changeBlur(Blur)
+    case changeAdjustments(Adjustments)
+    case changeFilter(ColorFilter?)
+}
